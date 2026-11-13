@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy Birthday 🎉</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<button id="mute" aria-label="Mute">♪</button>
+<div id="hud"><div id="cnt"></div></div>
+<section class="sc on" id="intro"><div class="panel"><h1>Something special is waiting for <span id="n1"></span></h1><p>Tap the gift to open it</p></div><button id="go">Open the gift</button></section>
+<section class="sc" id="count"><b id="num">3</b></section>
+<section class="sc" id="cake"><div class="panel"><h1>Make a wish</h1><p id="cp">Then blow into your mic to put out all the candles</p></div><button id="blow">Tap to blow</button></section>
+<section class="sc" id="fin"><div class="panel"><h1>Happy Birthday <span id="n2"></span>!</h1><p id="msg"></p></div><div id="rope"><div id="trk"></div></div><button id="playgame">Play the 50 Gifts Challenge 🎁</button><button onclick="location.reload()">Replay</button></section>
+<section class="sc" id="game"><div class="panel gamepanel"><h1>Gift Catch! 🎁</h1><p>Tap every gift and collect 50 for Tehreem!</p><strong id="score">0 / 50</strong><div id="gamefield" aria-label="Gift catching game"></div><p id="gamehint">Tap gifts as they appear — you can do it!</p><button id="gameback" style="display:none">Back to birthday 💖</button></div></section>
+<button id="nxt">Light the candles</button>
+<div id="card"><div><span id="wt"></span><small>tap anywhere to continue</small></div></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script></body></html>
